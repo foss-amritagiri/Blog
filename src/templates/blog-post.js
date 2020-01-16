@@ -13,7 +13,7 @@ export default function Template({ data, pathContext }) {
   const { next, prev } = pathContext;
   return (
     <div className="blog-post-container">
-      <Helmet title={`Foss@Amritagiri - ${post.frontmatter.title}`} />
+      <Helmet title={`Blog | Foss@Amritagiri - ${post.frontmatter.title}`} />
       <div className="blog-post">
         <div>
           <h1 className="title">{post.frontmatter.title}</h1>

@@ -1,5 +1,5 @@
 ---
-path: "/post-new.html"
+path: "/hello-world"
 date: "2019-05-25T15:56:24.754Z"
 title: "Hello World"
 tags: ["new", "hello-world"]

@@ -48,7 +48,7 @@ export default class Template extends React.Component {
                   fontFamily: "'Lobster', sans-serif",
                 }}
               >
-                Foss@Amritagiri
+                Foss@Amrita
               </Link>
             </h1>
           </div>
