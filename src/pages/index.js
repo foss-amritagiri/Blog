@@ -39,9 +39,7 @@ export default function Index({ data }) {
                   </Link>
                 </div>
               </div>
-              <div className="post-img">
-                <img src={post.frontmatter.image} alt="image" />
-              </div>
+             
             </div>
           );
         })}

@@ -7,7 +7,6 @@ import Link from '../components/Link';
 import Tags from '../components/Tags';
 
 import '../css/blog-post.css';
-import Comments from '../components/Comments/CommentList';
 
 export default function Template({ data, pathContext }) {
   const { markdownRemark: post } = data;
@@ -41,10 +40,6 @@ export default function Template({ data, pathContext }) {
                 <ForwardIcon size={16} className="icon" />
               </Link>
             )}
-          </div>
-          <div className="comment-section">
-            <h4 className="comment-header">Comments</h4>
-            <Comments />
           </div>
         </div>
       </div>
