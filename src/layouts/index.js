@@ -43,7 +43,7 @@ export default class Template extends React.Component {
               <Link
                 to="/"
                 style={{
-                  color: 'purple',
+                  color: '#0A79DF',
                   textDecoration: 'none',
                   fontFamily: "'Lobster', sans-serif",
                 }}

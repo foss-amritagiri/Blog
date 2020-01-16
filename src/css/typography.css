@@ -195,7 +195,6 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
   font-family: georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
@@ -510,6 +509,7 @@ th {
 }
 li {
   margin-bottom: calc(1.45rem / 2);
+  padding:5px;
 }
 ol li {
   padding-left: 0;
